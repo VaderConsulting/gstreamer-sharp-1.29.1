@@ -1,0 +1,75 @@
+=== release 1.29.1 ===
+
+2026-03-22 14:56:37 +0000  Tim-Philipp Müller <tim@centricular.com>
+
+	* ges/generated/GES/Constants.cs:
+	* ges/generated/gst-editing-services-api.xml:
+	* ges/gst-editing-services-api.raw:
+	* meson.build:
+	* sources/generated/Gst.PbUtils/Constants.cs:
+	* sources/generated/Gst/Constants.cs:
+	* sources/generated/gstreamer-sharp-api.xml:
+	* sources/gstreamer-sharp-api.raw:
+	  Release 1.29.1
+
+2023-04-02 16:53:45 +0100  Tim-Philipp Müller <tim@centricular.com>
+
+	* meson.build:
+	* scripts/dist-common-files.py:
+	  modules: dist common files from monorepo root
+	  Less noise when making releases, and just need to maintain one copy.
+	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gstreamer/-/merge_requests/11094>
+
+2026-03-18 23:36:41 +0100  Tim-Philipp Müller <tim@centricular.com>
+
+	* sources/generated/Gst.Base/Aggregator.cs:
+	* sources/generated/gstreamer-sharp-api.xml:
+	* sources/gstreamer-sharp-api.raw:
+	  gstreamer-sharp: update for GstAggregator annotation updates and fixes
+	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gstreamer/-/merge_requests/11073>
+
+2026-03-18 23:35:41 +0100  Tim-Philipp Müller <tim@centricular.com>
+
+	* sources/generated/Gst.PbUtils/Global.cs:
+	* sources/generated/gstreamer-sharp-api.xml:
+	* sources/gstreamer-sharp-api.raw:
+	  gstreamer-sharp: update for new VP9 codec utils API in pbutils library
+	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gstreamer/-/merge_requests/11073>
+
+2026-03-18 23:34:12 +0100  Tim-Philipp Müller <tim@centricular.com>
+
+	* sources/generated/Gst.Video/Constants.cs:
+	* sources/generated/Gst.Video/Global.cs:
+	* sources/generated/Gst.Video/VideoColorVolumeTransformation.cs:
+	* sources/generated/Gst.Video/VideoHDR10Plus.cs:
+	* sources/generated/Gst.Video/VideoHDRFormat.cs:
+	* sources/generated/Gst.Video/VideoHDRMeta.cs:
+	* sources/generated/gstreamer-sharp-api.xml:
+	* sources/generated/meson.build:
+	* sources/gstreamer-sharp-api.raw:
+	  gstreamer-sharp: update for new GstVideo HDR meta and associated APIs
+	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gstreamer/-/merge_requests/11073>
+
+2025-10-07 11:47:02 -0400  Xavier Claessens <xclaessens@netflix.com>
+
+	* README.md:
+	  doc: Update to use meson devenv instead of gst-env
+	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gstreamer/-/merge_requests/9802>
+
+2026-01-27 18:36:19 +0000  Tim-Philipp Müller <tim@centricular.com>
+
+	* ges/generated/GES/Constants.cs:
+	* ges/generated/gst-editing-services-api.xml:
+	* ges/gst-editing-services-api.raw:
+	* meson.build:
+	* sources/generated/Gst.PbUtils/Constants.cs:
+	* sources/generated/Gst/Constants.cs:
+	* sources/generated/gstreamer-sharp-api.xml:
+	* sources/gstreamer-sharp-api.raw:
+	  Back to development in main branch after 1.28.0
+	  - Track orc main branch
+	  - Track gst-plugins-rs main branch
+	  Part-of: <https://gitlab.freedesktop.org/gstreamer/gstreamer/-/merge_requests/10616>
+
+=== release 1.28.0 ===
+
