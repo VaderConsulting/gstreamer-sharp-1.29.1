@@ -29,7 +29,7 @@
 
 ## Attribution and provenance
 
-Original project: gstreamer-sharp (GStreamer / mono GSoC 2014 lineage), licensed under LGPL 2.1 — see `COPYING` and `README.upstream.md`.
+Original project: gstreamer-sharp (GStreamer / mono GSoC 2014 lineage), licensed under LGPL 2.1  -  see `COPYING` and `README.upstream.md`.
 
 Working copy from my Development folder `gstreamer-sharp-1.29.1`.
 
